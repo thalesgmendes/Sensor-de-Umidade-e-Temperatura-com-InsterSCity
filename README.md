@@ -1,6 +1,5 @@
 # Sensor de Umidade e Temperatura
 ![Logo do G](https://github.com/thalesgmendes/Sensor-de-Umidade-e-Temperatura-com-InsterSCity/blob/main/res/img/imgcab449503403402.jpeg?raw=true)
-### Sensor com Integração Interscity
 
 ## Sobre o projeto
 [//]: # (Editar depois)
@@ -9,7 +8,6 @@
 ## Recursos do Projeto
 - Esp32
 - Dht11/Dht22
-
 ## Equipe
 - ISAQUE MENDONCA COSTA
 - JEFFERSSON DE CARVALHO
