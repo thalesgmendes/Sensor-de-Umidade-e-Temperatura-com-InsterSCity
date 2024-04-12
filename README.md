@@ -1,5 +1,5 @@
 # Sensor de Umidade e Temperatura
-![Logo do G](res\img\imgcab449503403402.jpeg)
+![Logo do G](https://github.com/thalesgmendes/Sensor-de-Umidade-e-Temperatura-com-InsterSCity/blob/main/res/img/imgcab449503403402.jpeg?raw=true)
 ### Sensor com Integração Interscity
 
 ## Sobre o projeto
