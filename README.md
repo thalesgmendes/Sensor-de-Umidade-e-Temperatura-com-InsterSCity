@@ -1,4 +1,5 @@
 # Sensor de Umidade e Temperatura
+![Logo do G](res\img\imgcab449503403402.jpeg)
 ### Sensor com Integração Interscity
 
 ## Sobre o projeto
