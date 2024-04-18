@@ -3,6 +3,8 @@
 
 ## Sobre o projeto
 [//]: # (Editar depois)
+Este documento representa o Termo de Abertura de Projeto (TAP) para o projeto de Sistemas Distribuídos intitulado “Desenvolvimento de Termostato e Umidificador
+Inteligente Utilizando ESP32, Sensor DHT22 e Integração com InterSCity”. Este projeto tem como objetivo principal desenvolver um sistema que utilize o microcontrolador ESP32, com o sensor de temperatura e umidade DHT22, para realizar medições ambientais e exibi-las em uma dashboard. Além disso, será feita a integração com o protocolo MQTT e a conexão via API com a plataforma InterSCity.
 ## Objetivos
 [//]: # (Editar depois)
 ## Recursos do Projeto
