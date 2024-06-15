@@ -37,7 +37,7 @@ def subscribe(client):
     client.subscribe(topic_subscribe)
     client.on_message = on_message
 
-def save_data_to_csv(filename='C:\\Users\\thale\\Sensor-de-Umidade-e-Temperatura-com-InsterSCity\\mqtt_data.csv'):
+def save_data_to_csv(filename='mqtt_data.csv'):
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
     print(f"Dados salvos no arquivo {filename}")
