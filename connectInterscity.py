@@ -1,7 +1,3 @@
-# pip installs
-!pip install requests
-!pip install numpy
-
 # imports
 import time
 import pandas as pd

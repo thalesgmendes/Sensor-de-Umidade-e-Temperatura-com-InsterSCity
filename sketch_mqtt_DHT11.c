@@ -11,7 +11,7 @@ DHT dht11(DHT_PIN, DHT_TYPE);
 const char *ssid = "thales";
 const char *password = "123456";
 
-const char *mqtt_broker = "mqtt.eclipseprojects.io";
+const char *mqtt_broker = "broker.hivemq.com";
 const char *temperature_topic = "livingroom/temperature";
 const char *humidity_topic = "livingroom/humidity";
 const int mqtt_port = 1883;
