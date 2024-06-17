@@ -17,7 +17,7 @@ O objetivo deste projeto é criar um sistema distribuído capaz de capturar, pro
 - THALES GUSTAVO MENDES NUNES 
 - VINICIUS DE SOUSA PINTO
  ## Cronograma
- 
+ ![Crono](https://github.com/thalesgmendes/Sensor-de-Umidade-e-Temperatura-com-InsterSCity/blob/main/res/img/tap%20att%2015062024.jpeg).
 ## Documentação
 - [InterSCity][link1]
 - [API InterSCity][link2]
