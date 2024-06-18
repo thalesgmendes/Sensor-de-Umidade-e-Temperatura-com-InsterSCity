@@ -11,7 +11,7 @@ DHT dht11(DHT_PIN, DHT_TYPE);
 const char *ssid = "thales";
 const char *password = "123456";
 
-const char *mqtt_broker = "broker.hivemq.com";
+const char *mqtt_broker = "mqtt.eclipseprojects.io";
 const char *temperature_topic = "livingroom/temperature";
 const char *humidity_topic = "livingroom/humidity";
 const int mqtt_port = 1883;
@@ -61,7 +61,7 @@ void loop(){
     Serial.print("Humidity: ");
     Serial.print(humi);
     Serial.print("%");
-    sprintf(msg, "Humidity: %f", humi);
+    sprintf(msg, "%f", humi);
     client.publish(humidity_topic, msg);
 
     Serial.print("  |  ");
@@ -69,7 +69,7 @@ void loop(){
     Serial.print("Temperature: ");
     Serial.print(temperature_C);
     Serial.print("°C  ~  ");
-    sprintf(msg, "Temperature: %f", temperature_C);
+    sprintf(msg, "%f", temperature_C);
     client.publish(temperature_topic, msg);
   }
 

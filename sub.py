@@ -6,7 +6,8 @@ from paho.mqtt import client as mqtt_client
 # Configurações de conexão ao Broker
 broker = 'mqtt.eclipseprojects.io'
 port = 1883
-topic_subscribe = "livingroom/temperature"
+temperature_topic = "livingroom/temperature"
+humidity_topic = "livingroom/humidity"
 client_id = 'python-client-unique-id'  # ID do cliente Python (deve ser único)
 
 data = []
@@ -34,7 +35,8 @@ def subscribe(client):
         "payload": msg.payload.decode()
         })
 
-    client.subscribe(topic_subscribe)
+    client.subscribe(temperature_topic)
+    client.subscribe(humidity_topic)
     client.on_message = on_message
 
 def save_data_to_csv(filename='mqtt_data.csv'):
